@@ -1,7 +1,7 @@
 import Header from './header/header';
 import Footer from './footer/footer';
 
-import { Landing, NotFound } from '../pages';
+import { Landing } from '../pages';
 
 import style from './App.module.css';
 
