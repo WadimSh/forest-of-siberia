@@ -1,11 +1,25 @@
 @import url(./fonts/fonts.css);
 
 body {
+  /*глобальные переменные цвета*/
+  --main-background-color: #e3ebd2;
+  --main-text-color: #262523;
+  --secondary-text-color: #f5f5fa;
+  --main-decoration-color: #81817d;
+  
+  /*переменные отступов*/
+  --space-desktop: clamp(2.50rem, calc(1.79rem + 1.49vw), 3.13rem);
+  --space-mobile: clamp(0.94rem, calc(-0.18rem + 5.58vw), 2.50rem);
+
+  --font-size-leader-desktop: clamp(5.88rem, calc(4.59rem + 2.68vw), 7.00rem);
+  --font-size-leader-mobile: clamp(4.00rem, calc(2.66rem + 6.70vw), 5.88rem);
+
+
   margin: 0;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  
 }
 
