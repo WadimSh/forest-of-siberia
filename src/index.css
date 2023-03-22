@@ -20,6 +20,7 @@ body {
 @media screen and (min-width: 1440px) {
   body {
     --space-size: 1340px;
+    --indent-size: 50px;
     --font-size-title: 112px;
     --font-size-subtitle: 40px;
     --font-size-text: 20px;
@@ -29,6 +30,7 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   body {
     --space-size: clamp(43.00rem, calc(-3.57rem + 97.02vw), 83.75rem);
+    --indent-size: clamp(2.50rem, calc(1.79rem + 1.49vw), 3.13rem);
     --font-size-title: clamp(5.88rem, calc(4.59rem + 2.68vw), 7.00rem);
     --font-size-subtitle: clamp(1.88rem, calc(1.16rem + 1.49vw), 2.50rem);
     --font-size-text: clamp(1.00rem, calc(0.71rem + 0.60vw), 1.25rem);
@@ -38,6 +40,7 @@ body {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   body {
     --space-size: clamp(18.13rem, calc(0.36rem + 88.84vw), 43.00rem);
+    --indent-size: clamp(0.94rem, calc(-0.18rem + 5.58vw), 2.50rem);
     --font-size-title: clamp(4.00rem, calc(2.66rem + 6.70vw), 5.88rem);
     --font-size-subtitle: clamp(1.25rem, calc(0.80rem + 2.23vw), 1.88rem);
     --font-size-text: clamp(0.88rem, calc(0.79rem + 0.45vw), 1.00rem);
@@ -47,6 +50,7 @@ body {
 @media screen and (max-width: 319px) {
   body {
     --space-size: 290px;
+    --indent-size: 15px;
     --font-size-title: 64px;
     --font-size-subtitle: 20px;
     --font-size-text: 14px;
