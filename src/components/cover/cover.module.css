@@ -120,6 +120,10 @@
     margin-bottom: clamp(5.31rem, calc(2.10rem + 16.07vw), 8.13rem);
   }
 
+  .button {
+    padding: 7px 0;
+  }
+
   .img {
     height: clamp(14.81rem, calc(-7.12rem + 109.64vw), 34.00rem);
   }
