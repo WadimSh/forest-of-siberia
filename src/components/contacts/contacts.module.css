@@ -39,6 +39,7 @@
   text-align: center;
   list-style-type: none;
   margin-bottom: 15px;
+  transition: all .3s;
 }
 
 .item:nth-child(1) {
@@ -57,12 +58,17 @@
   grid-area: whatsapp;
 }
 
-.link{
+.item:hover {
+  transform: scale(1.02);
+  transition: all .3s;
+}
+
+.link {
   text-decoration: none;
   color: var(--secondary-text-color);
 }
 
-.telegram{
+.telegram {
   width: var(--indent-size);
   height: var(--indent-size);
   margin-left: auto;

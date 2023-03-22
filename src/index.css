@@ -1,5 +1,9 @@
 @import url(./fonts/fonts.css);
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /*глобальные переменные цвета*/
   --main-background-color: #e3ebd2;
@@ -13,6 +17,9 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
 
@@ -37,7 +44,7 @@ body {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   body {
     --space-size: clamp(18.13rem, calc(0.36rem + 88.84vw), 43.00rem);
     --indent-size: clamp(0.94rem, calc(-0.18rem + 5.58vw), 2.50rem);
@@ -47,7 +54,7 @@ body {
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
   body {
     --space-size: 290px;
     --indent-size: 15px;
