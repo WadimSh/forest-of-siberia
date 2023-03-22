@@ -98,7 +98,27 @@
 
 
 @media screen and (max-width: 600px) {
-  
+  .description {
+    grid-template-areas:
+    "h2 h2 h2"
+    "text text text"
+    "h1 h1 h1"
+    "button button button";
+    position: relative;
+  }
+
+  .title {
+    --step: calc(-144px - (192 - 144) * ((100vw - 320px) / (600 - 320)));
+    max-width: 486px;
+    position: absolute;
+    top: var(--step);
+    right: 0;
+  }
+
+  .text {
+    margin-top: 20px;
+    margin-bottom: clamp(5.31rem, calc(2.10rem + 16.07vw), 8.13rem);
+  }
 
   .img {
     height: clamp(14.81rem, calc(-7.12rem + 109.64vw), 34.00rem);
