@@ -1,4 +1,105 @@
 .wrapper {
   width: 100%;
+}
+
+.title {
+  margin: var(--indent-size) 0;
+  font-weight: 700;
+  font-size: var(--font-size-subtitle);
+  line-height: 117.5%;
+}
+
+.overlay{
+  width: 100%;
+  height: 544px;
+  margin-bottom: var(--indent-size);
+  background: linear-gradient(270deg, rgba(38, 37, 35, .1) 0%, rgba(38, 37, 35, .5) 100%), url(../../images/contacts.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list{
+ margin: 0;
+ padding: 0;
+ display: grid;
+ grid-template-areas:
+  "email email"
+  "telefon telefon"
+  "telegram whatsapp";
+}
+
+.item {
+  font-weight: 700;
+  font-size: var(--font-size-subtitle);
+  line-height: 117.5%;
   text-align: center;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.item:nth-child(1) {
+  grid-area: email;
+}
+
+.item:nth-child(2) {
+  grid-area: telefon;
+}
+
+.item:nth-child(3) {
+  grid-area: telegram;
+}
+
+.item:nth-child(4) {
+  grid-area: whatsapp;
+}
+
+.link{
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+.telegram{
+  width: var(--indent-size);
+  height: var(--indent-size);
+  margin-left: auto;
+  background-image: url(../../images/icon-telegram.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whatsapp {
+  width: var(--indent-size);
+  height: var(--indent-size);
+  margin-left: 20px;
+  background-image: url(../../images/icon-whatsapp.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 599px) {
+  .overlay{
+    height: clamp(14.81rem, calc(-7.12rem + 109.64vw), 34.00rem);
+  }
+
+  .item {
+    margin-bottom: clamp(0.31rem, calc(-0.40rem + 3.57vw), 0.94rem);
+  }
+
+  .telegram{
+    width: clamp(1.56rem, calc(0.49rem + 5.36vw), 2.50rem);
+    height: clamp(1.56rem, calc(0.49rem + 5.36vw), 2.50rem);
+  }
+
+  .whatsapp {
+    width: clamp(1.56rem, calc(0.49rem + 5.36vw), 2.50rem);
+    height: clamp(1.56rem, calc(0.49rem + 5.36vw), 2.50rem);
+    margin-left: clamp(0.63rem, calc(-0.09rem + 3.57vw), 1.25rem);
+  }
+
 }
