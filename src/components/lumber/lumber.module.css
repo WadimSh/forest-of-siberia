@@ -1,4 +1,57 @@
 .wrapper {
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: var(--indent-size) 0;
+  font-weight: 700;
+  font-size: var(--font-size-subtitle);
+  line-height: 117.5%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: var(--font-size-text);
+  line-height: 115%;
+}
+
+.arrow {
+  width: clamp(1.00rem, calc(0.93rem + 0.36vw), 1.25rem);
+  height: clamp(0.88rem, calc(0.80rem + 0.36vw), 1.13rem);
+  margin-left: 2px;
+  background-image: url(../../images/link.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .cardList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cardList {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
