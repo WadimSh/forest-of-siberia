@@ -86,9 +86,9 @@
 @media screen and (max-width: 1040px) {
   .description {
     grid-template-areas:
-    "h2 h2 h2 h2 button button"
-    "h1 h1 h1 h1 h1 h1"
-    "text text text text text text";
+    "h2 h2 button"
+    "h1 h1 h1"
+    "text text text";
   }
 
   .sutitle {
@@ -100,10 +100,10 @@
 @media screen and (max-width: 600px) {
   .description {
     grid-template-areas:
-    "h2 h2 h2"
-    "text text text"
-    "h1 h1 h1"
-    "button button button";
+    "h2"
+    "text"
+    "h1"
+    "button";
     position: relative;
   }
 
