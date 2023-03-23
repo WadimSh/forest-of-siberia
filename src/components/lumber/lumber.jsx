@@ -16,11 +16,12 @@ function Lumber() {
         </a>
       </div>
     <div className={style.cardList}>
-      {cards.map((card) => (
+      {cards.map((card) =>
         <Card
+          key={card.id}
           item={card}
         />
-      ))}
+      )}
     </div>
     </section>
   );
