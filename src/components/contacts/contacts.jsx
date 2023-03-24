@@ -15,12 +15,12 @@ function Contacts() {
             <a className={style.link} href="tel:+7 (991) 922-78-82">+7 (991) 922-78-82</a>
           </li>
           <li className={style.item}>
-            <a className={style.link} href="https://t.me/lessibrf">
+            <a className={style.link} href="https://t.me/lessibrf" target="_blank">
               <div className={style.telegram}></div>
             </a>
           </li>
           <li className={style.item}>
-            <a className={style.link} href="https://wa.me/79257302695">
+            <a className={style.link} href="https://wa.me/79257302695" target="_blank">
             <div className={style.whatsapp}></div>
             </a>
           </li>
