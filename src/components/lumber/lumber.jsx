@@ -5,7 +5,7 @@ import cards from '../../utils/data';
 function Lumber() {
   
   return (
-    <section className={style.wrapper}>
+    <section className={style.wrapper} id="lumber">
       <div className={style.description}>
         <h2 className={style.title}>
           // ПИЛОМАТЕРИАЛЫ

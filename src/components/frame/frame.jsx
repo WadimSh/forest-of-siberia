@@ -12,7 +12,7 @@ import frame9 from '../../images/frame9.jpg';
 
 function Frame() {
   return (
-    <section className={style.wrapper}>
+    <section className={style.wrapper} id="frame">
       <div className={style.textBox}>
         <h2 className={style.title}>
           // КАРКАСНЫЕ ДОМА

@@ -1,6 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
-import Header from './header/header';
-import Footer from './footer/footer';
+import { Route, Switch } from 'react-router-dom';
 
 import { Landing, NotFound } from '../pages';
 
@@ -9,12 +7,14 @@ import style from './App.module.css';
 function App() {
   return (
     <div className={style.app}>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Landing />}/>
-        <Route path="*" element={<NotFound />}/>
-      </Routes>
-      <Footer />
+      <Switch>
+        <Route path="/" exact={true}>
+          <Landing />
+        </Route>
+        <Route>
+          <NotFound />
+        </Route>
+      </Switch>
     </div>
   );
 }

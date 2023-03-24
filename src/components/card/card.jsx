@@ -2,7 +2,7 @@ import style from './card.module.css';
 
 function Card({ item }) {
   const { img, name, price, logic } = item;
-  console.log(item);
+  
   return (
     <div className={style.card}>
         <img className={style.img} src={img} alt="" />

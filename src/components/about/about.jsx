@@ -6,7 +6,7 @@ import aboutthree from '../../images/about-three.jpg';
 
 function About() {
   return (
-    <section className={style.wrapper}>
+    <section className={style.wrapper} id="about">
       <div className={style.textBox}>
         <h2 className={style.title}>
           // О&nbsp;НАС
