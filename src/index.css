@@ -31,6 +31,7 @@ body {
     --font-size-title: 112px;
     --font-size-subtitle: 40px;
     --font-size-text: 20px;
+    --font-size-span: 20px
   }
 }
 
@@ -41,6 +42,7 @@ body {
     --font-size-title: clamp(5.88rem, calc(4.59rem + 2.68vw), 7.00rem);
     --font-size-subtitle: clamp(1.88rem, calc(1.16rem + 1.49vw), 2.50rem);
     --font-size-text: clamp(1.00rem, calc(0.71rem + 0.60vw), 1.25rem);
+    --font-size-span: clamp(0.94rem, calc(0.58rem + 0.74vw), 1.25rem);
   }
 }
 
@@ -51,6 +53,7 @@ body {
     --font-size-title: clamp(4.00rem, calc(2.66rem + 6.70vw), 5.88rem);
     --font-size-subtitle: clamp(1.25rem, calc(0.80rem + 2.23vw), 1.88rem);
     --font-size-text: clamp(0.88rem, calc(0.79rem + 0.45vw), 1.00rem);
+    --font-size-span: clamp(0.63rem, calc(0.40rem + 1.12vw), 0.94rem);
   }
 }
 
@@ -61,5 +64,6 @@ body {
     --font-size-title: 64px;
     --font-size-subtitle: 20px;
     --font-size-text: 14px;
+    --font-size-span: 10px;
   }
 }

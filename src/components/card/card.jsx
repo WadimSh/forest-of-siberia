@@ -9,7 +9,7 @@ function Card({ item }) {
         <h3 className={style.name}>{name}</h3>
         <div className={style.div}>
           <span className={style.price}>{price}</span>
-          {logic && <span>РУБ/М&#179;</span>}
+          {logic && <span className={style.metric}>РУБ/М&#179;</span>}
         </div>
         
       </div>

@@ -19,7 +19,7 @@
   line-height: 117.5%;
 }
 
-.link {
+/*.link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -27,7 +27,7 @@
   font-weight: 400;
   font-size: var(--font-size-text);
   line-height: 115%;
-}
+}*/
 
 .arrow {
   width: clamp(1.00rem, calc(0.93rem + 0.36vw), 1.25rem);
@@ -43,6 +43,8 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  column-gap: clamp(0.56rem, calc(-0.82rem + 3.69vw), 2.50rem);
+  row-gap: var(--indent-size);
 }
 
 @media screen and (min-width: 600px) and (max-width: 1200px) {
@@ -54,5 +56,6 @@
 @media screen and (max-width: 600px) {
   .cardList {
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 9px;
   }
 }
