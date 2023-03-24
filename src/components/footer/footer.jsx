@@ -22,25 +22,25 @@ function Footer() {
     <footer className={style.wrapper}>
       <div className={style.nav}>
         <img src={width > 600 ? logo : logoMini} width={width > 600 ? 108 : 30} height={width > 600 ? 40 : 24} alt="Логотип копании" />
-        <ul>
-          <li>
-            <a href="#about">О нас</a>
+        <ul className={style.list}>
+          <li className={style.item}>
+            <a className={style.link} href="#about">О нас</a>
           </li>
-          <li>
-            <a href="#lumber">Пиломатериалы</a>
+          <li className={style.item}>
+            <a className={style.link} href="#lumber">Пиломатериалы</a>
           </li>
-          <li>
-            <a href="#frame">Каркасные дома</a>
+          <li className={style.item}>
+            <a className={style.link} href="#frame">Каркасные дома</a>
           </li>
         </ul>
       </div>
       <div className={style.row}>
-        <p>&copy; {new Date().getFullYear()}. ООО "Лес Сибири"</p>
-        <div>
-          <Link to="/politics">Политика конфиденциальности</Link>
-          <Link to="/agreement">Пользовательское соглашение</Link>
-          <Link to="/delivery">Продажа и доставка</Link>
-          <Link to="/inform">Юридическая информация</Link>
+        <p className={style.copyright}>&copy; {new Date().getFullYear()}. ООО "Лес Сибири"</p>
+        <div className={style.tabLink}>
+          <Link className={style.navLink} to="/politics">Политика конфиденциальности</Link>
+          <Link className={style.navLink} to="/agreement">Пользовательское соглашение</Link>
+          <Link className={style.navLink} to="/delivery">Продажа и доставка</Link>
+          <Link className={style.navLink} to="/inform">Юридическая информация</Link>
         </div>
       </div>
     </footer>
