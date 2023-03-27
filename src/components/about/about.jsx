@@ -4,9 +4,9 @@ import aboutone from '../../images/about-one.jpg';
 import abouttwo from '../../images/about-two.jpg';
 import aboutthree from '../../images/about-three.jpg';
 
-function About() {
+function About({ aboutRef }) {
   return (
-    <section className={style.wrapper} id="about">
+    <section className={style.wrapper} ref={aboutRef}>
       <div className={style.textBox}>
         <h2 className={style.title}>
           // О&nbsp;НАС

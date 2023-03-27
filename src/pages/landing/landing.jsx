@@ -12,6 +12,9 @@ import style from './landing.module.css';
 
 function Landing() {
   const contactsRef = useRef();
+  const aboutRef = useRef();
+  const lumberRef = useRef();
+  const frameRef = useRef();
 
   const clickTab = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -20,12 +23,28 @@ function Landing() {
   return (
     <main className={style.wrapper}>
       <Header />
-      <Cover clickTab={clickTab} tabRef={contactsRef} />
-      <About />
-      <Lumber />
-      <Frame />
-      <Contacts tabRef={contactsRef}/>
-      <Footer />
+      <Cover 
+        clickTab={clickTab} 
+        contactsRef={contactsRef} 
+      />
+      <About 
+        aboutRef={aboutRef} 
+      />
+      <Lumber 
+        lumberRef={lumberRef} 
+      />
+      <Frame 
+        frameRef={frameRef} 
+      />
+      <Contacts 
+        contactsRef={contactsRef}
+      />
+      <Footer 
+        clickTab={clickTab}
+        aboutRef={aboutRef}
+        lumberRef={lumberRef}
+        frameRef={frameRef}
+      />
     </main>
   );
 }

@@ -4,7 +4,7 @@ import style from './footer.module.css';
 import logo from '../../images/logo.svg';
 import logoMini from '../../images/logo-mobile.svg';
 
-function Footer() {
+function Footer({ clickTab, aboutRef, lumberRef, frameRef }) {
   const [width, setWidth] = useState(window.innerWidth);
   
   useEffect(() => {
@@ -23,14 +23,14 @@ function Footer() {
       <div className={style.nav}>
         <img src={width > 600 ? logo : logoMini} width={width > 600 ? 108 : 30} height={width > 600 ? 40 : 24} alt="Логотип копании" />
         <ul className={style.list}>
-          <li className={style.item}>
-            <a className={style.link} href="#about">О нас</a>
+          <li className={style.item} onClick={() => clickTab(aboutRef)}>
+            <span className={style.link}>О нас</span>
           </li>
-          <li className={style.item}>
-            <a className={style.link} href="#lumber">Пиломатериалы</a>
+          <li className={style.item} onClick={() => clickTab(lumberRef)}>
+            <span className={style.link}>Пиломатериалы</span>
           </li>
-          <li className={style.item}>
-            <a className={style.link} href="#frame">Каркасные дома</a>
+          <li className={style.item} onClick={() => clickTab(frameRef)}>
+            <span className={style.link}>Каркасные дома</span>
           </li>
         </ul>
       </div>

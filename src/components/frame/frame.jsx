@@ -10,9 +10,9 @@ import frame7 from '../../images/frame7.jpg';
 import frame8 from '../../images/frame8.jpg';
 import frame9 from '../../images/frame9.jpg';
 
-function Frame() {
+function Frame({ frameRef }) {
   return (
-    <section className={style.wrapper} id="frame">
+    <section className={style.wrapper} ref={frameRef}>
       <div className={style.textBox}>
         <h2 className={style.title}>
           // КАРКАСНЫЕ ДОМА

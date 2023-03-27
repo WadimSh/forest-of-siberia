@@ -1,8 +1,8 @@
 import style from './contacts.module.css';
 
-function Contacts({ tabRef }) {
+function Contacts({ contactsRef }) {
   return (
-    <section className={style.wrapper} ref={tabRef} id="contacts">
+    <section className={style.wrapper} ref={contactsRef}>
       <h2 className={style.title}>
         // КОНТАКТЫ
       </h2>

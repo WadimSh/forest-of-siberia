@@ -2,10 +2,10 @@ import style from './lumber.module.css';
 import Card from '../card/card';
 import cards from '../../utils/data';
 
-function Lumber() {
+function Lumber({ lumberRef }) {
   
   return (
-    <section className={style.wrapper} id="lumber">
+    <section className={style.wrapper} ref={lumberRef}>
       <div className={style.description}>
         <h2 className={style.title}>
           // ПИЛОМАТЕРИАЛЫ
