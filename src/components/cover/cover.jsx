@@ -1,13 +1,15 @@
+import { useRef } from 'react';
 import style from './cover.module.css';
 
 import cover from '../../images/cover.jpg';
 
-function Cover() {
+function Cover({ clickTab, tabRef }) {
+  
   return (
     <section className={style.wrapper}>
       <div className={style.description}>
         <h2 className={style.sutitle}>ПРОИЗВОДСТВО И&nbsp;ПРОДАЖА ПИЛОМАТЕРИАЛОВ</h2>
-        <a className={style.button} href="#contacts">КУПИТЬ  СЕЙЧАС</a>
+        <span className={style.button} onClick={() => clickTab(tabRef)}>КУПИТЬ  СЕЙЧАС</span>
         <p className={style.text}>Стройте свои мечты из&nbsp;пиломатериалов лесов Сибири.</p>
         <h1 className={style.title}>ЛЕС СИБИРИ</h1>
       </div>
