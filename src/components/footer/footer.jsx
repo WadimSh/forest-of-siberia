@@ -1,27 +1,15 @@
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+
+import Logo from '../logo/logo';
+
 import style from './footer.module.css';
-import logo from '../../images/logo.svg';
-import logoMini from '../../images/logo-mobile.svg';
 
 function Footer({ clickTab, aboutRef, lumberRef, frameRef }) {
-  const [width, setWidth] = useState(window.innerWidth);
-  
-  useEffect(() => {
-    const handleResize = (e) => {
-      setWidth(e.target.innerWidth);
-      window.addEventListener('resize', handleResize);
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      }
-    }
-  }, []);
-      
-  
+    
   return (
     <footer className={style.wrapper}>
       <div className={style.nav}>
-        <img src={width > 600 ? logo : logoMini} width={width > 600 ? 108 : 30} height={width > 600 ? 40 : 24} alt="Логотип копании" />
+        <Logo />
         <ul className={style.list}>
           <li className={style.item} onClick={() => clickTab(aboutRef)}>
             <span className={style.link}>О нас</span>
