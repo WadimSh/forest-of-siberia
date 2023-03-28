@@ -50,12 +50,12 @@
   border: 1px solid var(--main-decoration-color);
   border-radius: 50px;
   box-sizing: border-box;
-  text-decoration: none;
   text-align: center;
   font-weight: 400;
   font-size: var(--font-size-text);
   line-height: 115%;
   color: var(--main-text-color);
+  cursor: pointer;
   transition: all .3s;
 }
 

@@ -22,6 +22,7 @@
   font-size: var(--font-size-span);
   line-height: 115%;
   list-style-type: none;
+  cursor: pointer;
   transition: all .3s;
 }
 
