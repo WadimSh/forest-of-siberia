@@ -1,35 +1,51 @@
 .wrapper {
   width: var(--space-size);
   margin-top: var(--indent-size);
+  background-color: var(--main-background-color);
   position: sticky;
 }
 
 .row {
   width: 100%;
   display: flex;
-  margin-bottom: var(--indent-size);
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: var(--indent-size);
 }
 
-.link {
-  font-weight: 500;
-  font-size: var(--font-size-subtitle);
-  line-height: 117.5%;
-  text-decoration: none;
-  color: var(--main-text-color);
-  margin-left: auto;
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.item {
+  font-weight: 400;
+  font-size: var(--font-size-span);
+  line-height: 115%;
+  list-style-type: none;
   transition: all .3s;
 }
 
-.link:hover {
+.item:not(:last-child) {
+  margin-right: clamp(0.94rem, calc(-2.86rem + 10.12vw), 6.25rem);
+}
+
+.item:hover {
   transform: scale(1.02);
   transition: all .3s;
 }
 
+.link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
 .burger {
-  margin-left: 35%;
+  display: none;
   align-self: center;
   position: relative;
-  width: 70px;
+  width: 50px;
   height: 10px;
   cursor: pointer;
 }
@@ -38,7 +54,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 70px;
+  width: 50px;
   height: 1px;
   background-color: var(--main-text-color);
   transition: .3s;
@@ -48,11 +64,15 @@
   transform: translateY(-5px);
 }
 
+.span:nth-child(2) {
+  transform: translateY(5px);
+}
+
 .spanActive {
   position: absolute;
   top: 0;
   left: 0;
-  width: 70px;
+  width: 50px;
   height: 1px;
   background-color: var(--main-text-color);
   transition: .3s;
@@ -62,42 +82,18 @@
   transform: translateY(0) rotate(-45deg);
 }
 
-.span:nth-child(2) {
-  transform: translateY(5px);
-}
-
 .spanActive:nth-child(2) {
   transform: translateY(0) rotate(45deg);
 }
 
-.tab {
-  display: none;
-}
+@media screen and (max-width: 600px) {
+  .list {
+    display: none;
+  }
 
-.tabActive {
-  display: block;
-  width: var(--space-size);
-  background-color: var(--main-background-color);
-  position: fixed;
-}
-
-.tabLink {
-  width: 100%;
-  border-top: 1px solid var(--main-decoration-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: var(--indent-size) 0;
-
-}
-
-.navLink {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 115%;
-  letter-spacing: -.05em;
-  text-decoration: none;
-  color: var(--main-text-color);
+  .burger {
+    display: block;
+  }
 }
 
 .overlay {
@@ -106,10 +102,9 @@
 
 .overlayActive {
   display: block;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
-  top: 17rem;
   left: 0;
 }

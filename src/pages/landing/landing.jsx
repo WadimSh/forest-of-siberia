@@ -22,7 +22,13 @@ function Landing() {
 
   return (
     <main className={style.wrapper}>
-      <Header />
+      <Header 
+        clickTab={clickTab}
+        aboutRef={aboutRef}
+        lumberRef={lumberRef}
+        frameRef={frameRef}
+        contactsRef={contactsRef}
+      />
       <Cover 
         clickTab={clickTab} 
         contactsRef={contactsRef} 

@@ -88,7 +88,7 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
   .overlay{
     height: clamp(14.81rem, calc(-7.12rem + 109.64vw), 34.00rem);
   }

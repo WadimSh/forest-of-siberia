@@ -26,7 +26,7 @@
 }
 
 .item:not(:last-child) {
-  margin-right: clamp(0.94rem, calc(-1.65rem + 12.95vw), 10.00rem);
+  margin-right: clamp(0.94rem, calc(-2.86rem + 10.12vw), 6.25rem);
 }
 
 .item:hover {
