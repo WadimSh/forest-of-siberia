@@ -33,14 +33,14 @@ function Landing() {
         clickTab={clickTab} 
         contactsRef={contactsRef} 
       />
-      <About 
-        aboutRef={aboutRef} 
-      />
       <Lumber 
         lumberRef={lumberRef} 
       />
       <Frame 
         frameRef={frameRef} 
+      />
+      <About 
+        aboutRef={aboutRef} 
       />
       <Contacts 
         contactsRef={contactsRef}

@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin: var(--indent-size) 0 0;
 }
 
 .textBox {
