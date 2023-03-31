@@ -30,6 +30,7 @@ function Landing() {
         contactsRef={contactsRef}
       />
       <main className={style.wrapper}>
+        
         <Cover 
           clickTab={clickTab} 
           contactsRef={contactsRef} 

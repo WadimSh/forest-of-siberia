@@ -20,8 +20,8 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
   }, [logic])
   
   return ( 
-  <>
-    <header className={style.wrapper}>
+  <header className={style.wrapper}>
+    <div className={style.menu}>
       <div className={style.row}>
         <Logo />
         <div className={style.burger} onClick={onChecked}>
@@ -43,11 +43,9 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
             <span className={style.link}>Контакты</span>
           </li>
         </ul>
-        
-     
-    </header>
+    </div>
     <div className={!logic ? style.overlay : style.overlayActive}>
-    <ul className={style.listActive}>
+      <ul className={style.listActive}>
           <li className={style.item} onClick={() => onMobile(aboutRef)}>
             <span className={style.link}>О нас</span>
           </li>
@@ -60,10 +58,10 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
           <li className={style.item} onClick={() => onMobile(contactsRef)}>
             <span className={style.link}>Контакты</span>
           </li>
-        </ul>
+      </ul>
     </div>
   
-  </>
+  </header>
     
   );
 }

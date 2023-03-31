@@ -1,5 +1,9 @@
 .wrapper {
   width: var(--space-size);
+}
+
+.menu {
+  width: 100%;
   margin-top: var(--indent-size);
   padding-bottom: var(--indent-size);
   background-color: var(--main-background-color);
@@ -91,7 +95,6 @@
 
 @media screen and (max-width: 600px) {
   .wrapper {
-    flex-direction: column;
     background-color: var(--main-background-color);
   }
 
