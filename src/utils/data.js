@@ -86,7 +86,7 @@ const cards = [
   {
     id: 11,
     img: zero,
-    name: 'ТЕРРАССНАЯ ДОСКА',
+    name: 'ТЕРРАСНАЯ ДОСКА',
     price: 'от 23000',
     logic: true,
   },

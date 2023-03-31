@@ -35,6 +35,45 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: clamp(0.56rem, calc(-0.82rem + 3.69vw), 2.50rem);
   row-gap: var(--indent-size);
+  margin: 0 0 var(--indent-size) 0;
+}
+
+.button {
+  --padding-left: clamp(0.44rem, calc(-0.99rem + 3.81vw), 2.44rem);
+  --padding-top: clamp(0.19rem, calc(-0.17rem + 0.95vw), 0.69rem);
+  padding: var(--padding-top) var(--padding-left);
+  align-self: center;
+  border: 1px solid var(--main-decoration-color);
+  border-radius: 50px;
+  background-color: transparent;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: var(--font-size-text);
+  line-height: 115%;
+  color: var(--main-text-color);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.button:hover {
+  background-color: var(--main-decoration-color);
+  color: var(--secondary-text-color);
+  transition: all .3s;
+}
+
+.button:focus {
+  border: 1px solid var(--main-text-color);
+  transition: all .3s;
+}
+
+.button:active {
+  background-color: transparent;
+  color: var(--main-decoration-color);
+  transition: all .3s;
+}
+
+.buttonDisible {
+  display: none;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1200px) {
@@ -47,5 +86,10 @@
   .cardList {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 9px;
+  }
+
+  .button {
+    padding: 7px 0;
+    align-self: auto;
   }
 }
