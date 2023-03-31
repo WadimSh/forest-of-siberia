@@ -21,7 +21,7 @@ function Landing() {
   };
 
   return (
-    <main className={style.wrapper}>
+    <>
       <Header 
         clickTab={clickTab}
         aboutRef={aboutRef}
@@ -29,29 +29,31 @@ function Landing() {
         frameRef={frameRef}
         contactsRef={contactsRef}
       />
-      <Cover 
-        clickTab={clickTab} 
-        contactsRef={contactsRef} 
-      />
-      <Lumber 
-        lumberRef={lumberRef} 
-      />
-      <Frame 
-        frameRef={frameRef} 
-      />
-      <About 
-        aboutRef={aboutRef} 
-      />
-      <Contacts 
-        contactsRef={contactsRef}
-      />
+      <main className={style.wrapper}>
+        <Cover 
+          clickTab={clickTab} 
+          contactsRef={contactsRef} 
+        />
+        <Lumber 
+          lumberRef={lumberRef} 
+        />
+        <Frame 
+          frameRef={frameRef} 
+        />
+        <About 
+          aboutRef={aboutRef} 
+        />
+        <Contacts 
+          contactsRef={contactsRef}
+        />
+      </main>
       <Footer 
         clickTab={clickTab}
         aboutRef={aboutRef}
         lumberRef={lumberRef}
         frameRef={frameRef}
       />
-    </main>
+    </>
   );
 }
 
