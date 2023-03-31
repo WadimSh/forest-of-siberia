@@ -1,5 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 
+import ScrollToTop from '../components/scroll-top/scroll-top';
 import { Landing, Policy, Agreement, NotFound } from '../pages';
 
 import style from './App.module.css';
@@ -8,7 +9,8 @@ function App() {
   
   return (
     <div className={style.app}>
-      <Switch>
+      <ScrollToTop>
+        <Switch>
         <Route path="/" exact={true}>
           <Landing />
         </Route>
@@ -22,6 +24,7 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
+      </ScrollToTop>
     </div>
   );
 }
