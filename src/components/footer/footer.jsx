@@ -23,12 +23,10 @@ function Footer({ clickTab, aboutRef, lumberRef, frameRef }) {
         </ul>
       </div>
       <div className={style.row}>
-        <p className={style.copyright}>&copy; {new Date().getFullYear()}. ООО "Лес Сибири"</p>
+        <p className={style.copyright}>&copy; {new Date().getFullYear()}. "Лес Сибири"</p>
         <div className={style.tabLink}>
           <Link className={style.navLink} to="/politics">Политика конфиденциальности</Link>
           <Link className={style.navLink} to="/agreement">Пользовательское соглашение</Link>
-          <Link className={style.navLink} to="/delivery">Продажа и доставка</Link>
-          <Link className={style.navLink} to="/inform">Юридическая информация</Link>
         </div>
       </div>
     </footer>

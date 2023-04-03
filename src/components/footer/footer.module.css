@@ -72,13 +72,13 @@
   margin-right: 50px;
 }
 
-@media screen and (min-width: 850px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
   .navLink:not(:last-child) {
     margin-right: 20px;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
   .row {
     flex-direction: column;
     justify-content: flex-start;
