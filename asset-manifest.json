@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.2929f8ea.css",
-    "main.js": "./static/js/main.218f3363.js",
+    "main.css": "./static/css/main.078c5bcc.css",
+    "main.js": "./static/js/main.b504336f.js",
     "static/js/787.22c0a299.chunk.js": "./static/js/787.22c0a299.chunk.js",
+    "static/media/timber-dry-transformed.png": "./static/media/timber-dry-transformed.28eb17ddf1db337773ee.png",
     "static/media/cover.jpg": "./static/media/cover.f8b5eb6288626fb8696d.jpg",
+    "static/media/planed-timber-transformed.png": "./static/media/planed-timber-transformed.ffe78a374d9a20cbb086.png",
     "static/media/contacts.jpg": "./static/media/contacts.cbd4add01bac6f3924b9.jpg",
+    "static/media/planken-kosoy-transformed.png": "./static/media/planken-kosoy-transformed.c8a987a25aefb326e34a.png",
+    "static/media/board-dry-transformed.png": "./static/media/board-dry-transformed.b2ef7833c96c32fe72ee.png",
+    "static/media/board-wet-transformed.png": "./static/media/board-wet-transformed.f14c914722fe0299183d.png",
+    "static/media/decking-transformed.png": "./static/media/decking-transformed.6a8b340a6315a2372424.png",
+    "static/media/planed-board-transformed.png": "./static/media/planed-board-transformed.8869d273eaecbbd21584.png",
+    "static/media/planken-priamoy-transformed.png": "./static/media/planken-priamoy-transformed.e860066e7a753334da72.png",
     "static/media/about-three.jpg": "./static/media/about-three.685211171e09d04c0bb7.jpg",
     "static/media/wooden-wallpaper.png": "./static/media/wooden-wallpaper.fde0ee0b839edd7a7eba.png",
     "static/media/frame6.jpg": "./static/media/frame6.b93e54e313fd30ea7c30.jpg",
@@ -18,12 +26,9 @@
     "static/media/block-house.png": "./static/media/block-house.8fdac75764d2dfe8c322.png",
     "static/media/parquet-board.png": "./static/media/parquet-board.504be43b6b272b42d517.png",
     "static/media/beam.png": "./static/media/beam.a792c4358782ee80a864.png",
-    "static/media/planken.png": "./static/media/planken.13d41138c5a2e56e2e7d.png",
-    "static/media/card_board-wet.png": "./static/media/card_board-wet.e06daca307730a74cd1c.png",
     "static/media/frame5.jpg": "./static/media/frame5.5bd0407b4667d0e7ff5a.jpg",
     "static/media/frame3.jpg": "./static/media/frame3.847d0962cd40299ced8b.jpg",
     "static/media/euro-siding.png": "./static/media/euro-siding.9e24d568582b92aeb6e8.png",
-    "static/media/deck-board.png": "./static/media/deck-board.0fa1adcfd1a0d85f7741.png",
     "static/media/floor-board.png": "./static/media/floor-board.824d1041ae4f96149e2f.png",
     "static/media/sheathing-board.png": "./static/media/sheathing-board.4c6bb37330048718414a.png",
     "static/media/frame4.jpg": "./static/media/frame4.826553dfd1e1d0ab9f6a.jpg",
@@ -40,16 +45,16 @@
     "static/media/Robotobold.woff2": "./static/media/Robotobold.23c8ce07bd38f6723622.woff2",
     "static/media/Robotomedium.woff2": "./static/media/Robotomedium.76cb645b72a0083e239f.woff2",
     "static/media/Roboto.woff2": "./static/media/Roboto.806e04d8241d87f99a68.woff2",
-    "static/media/board-dry.png": "./static/media/board-dry.803dab94bdcf8c19d898.png",
+    "static/media/timber-wet-transformed.png": "./static/media/timber-wet-transformed.2c5a7abb629ba480bef9.png",
     "static/media/zero.png": "./static/media/zero.3863ec03d99bb88f49bc.png",
     "static/media/logo.svg": "./static/media/logo.d9235ce6c02d8545f743c6f284c41cc5.svg",
     "index.html": "./index.html",
-    "main.2929f8ea.css.map": "./static/css/main.2929f8ea.css.map",
-    "main.218f3363.js.map": "./static/js/main.218f3363.js.map",
+    "main.078c5bcc.css.map": "./static/css/main.078c5bcc.css.map",
+    "main.b504336f.js.map": "./static/js/main.b504336f.js.map",
     "787.22c0a299.chunk.js.map": "./static/js/787.22c0a299.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2929f8ea.css",
-    "static/js/main.218f3363.js"
+    "static/css/main.078c5bcc.css",
+    "static/js/main.b504336f.js"
   ]
 }
