@@ -1,0 +1,38 @@
+.wrapper {
+  width: var(--space-size);
+  margin-bottom: var(--indent-size);
+  height: 100vh;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 115%;
+  text-decoration: none;
+}
+
+.title {
+  margin: var(--indent-size) 0 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117.5%;
+}
+
+.item {
+  margin: 10px 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 115%;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 115%;
+  margin: 0 0 5px 0;
+}
+
+.list {
+  margin: 0;
+  padding-left: 10px;
+}
