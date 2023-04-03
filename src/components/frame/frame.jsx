@@ -57,15 +57,14 @@ function Frame({ frameRef }) {
       </div>
       <div className={style.galleryBox}>
         <img className={style.img} src={frame1} alt="Фотографии этапов постройки ряда домов" />
+        <img className={style.img} src={frame2} alt="Фотографии этапов постройки ряда домов" />
+        <img className={style.img} src={frame3} alt="Фотографии этапов постройки ряда домов" />
+        <img className={style.img} src={frame4} alt="Фотографии этапов постройки ряда домов" />
+        <img className={style.img} src={frame5} alt="Фотографии этапов постройки ряда домов" />
         <img className={style.img} src={frame6} alt="Фотографии этапов постройки ряда домов" />
         <img className={style.img} src={frame7} alt="Фотографии этапов постройки ряда домов" />
-        <img className={style.img} src={frame2} alt="Фотографии этапов постройки ряда домов" />
-        <img className={style.img} src={frame4} alt="Фотографии этапов постройки ряда домов" />
         <img className={style.img} src={frame8} alt="Фотографии этапов постройки ряда домов" />
-        <img className={style.img} src={frame3} alt="Фотографии этапов постройки ряда домов" />
-        <img className={style.img} src={frame5} alt="Фотографии этапов постройки ряда домов" />
         <img className={style.img} src={frame9} alt="Фотографии этапов постройки ряда домов" />
-        <img className={style.img} src={frame6} alt="Фотографии этапов постройки ряда домов" />
       </div>
     </section>
   );
