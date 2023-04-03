@@ -1,5 +1,5 @@
 .wrapper {
-  width: 100%;
+  width: var(--space-size);
   height: 100vh;
 }
 
