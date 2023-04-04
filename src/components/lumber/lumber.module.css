@@ -19,16 +19,6 @@
   line-height: 117.5%;
 }
 
-.arrow {
-  width: clamp(1.00rem, calc(0.93rem + 0.36vw), 1.25rem);
-  height: clamp(0.88rem, calc(0.80rem + 0.36vw), 1.13rem);
-  margin-left: 2px;
-  background-image: url(../../images/link.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .cardList {
   width: 100%;
   display: grid;

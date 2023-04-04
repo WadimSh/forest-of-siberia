@@ -52,9 +52,9 @@ function About({ aboutRef }) {
         </p>
       </div>
       <div className={style.imgBox}>
-        <img className={style.img} src={aboutone} width={546} height={340} alt="Изображения производственных процессов лесозаготовки" />
-        <img className={style.img} src={abouttwo} width={546} height={340} alt="Изображения производственных процессов лесозаготовки" />
         <img className={style.img} src={aboutthree} width={546} height={340} alt="Изображения производственных процессов лесозаготовки" />
+        <img className={style.img} src={abouttwo} width={546} height={340} alt="Изображения производственных процессов лесозаготовки" />
+        <img className={style.img} src={aboutone} width={546} height={340} alt="Изображения производственных процессов лесозаготовки" />
       </div>
     </section>
   );
