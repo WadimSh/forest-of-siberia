@@ -1,0 +1,11 @@
+.wrapper {
+  width: 100%;
+  margin: var(--indent-size) 0 0;
+}
+
+.title {
+  margin: var(--indent-size) 0;
+  font-weight: 700;
+  font-size: var(--font-size-subtitle);
+  line-height: 117.5%;
+}

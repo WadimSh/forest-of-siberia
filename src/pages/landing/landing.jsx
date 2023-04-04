@@ -5,6 +5,7 @@ import About from '../../components/about/about';
 import Lumber from '../../components/lumber/lumber';
 import Frame from '../../components/frame/frame';
 import Contacts from '../../components/contacts/contacts';
+import Slider from '../../components/slider/slider';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 
@@ -30,7 +31,6 @@ function Landing() {
         contactsRef={contactsRef}
       />
       <main className={style.wrapper}>
-        
         <Cover 
           clickTab={clickTab} 
           contactsRef={contactsRef} 
@@ -41,6 +41,7 @@ function Landing() {
         <Frame 
           frameRef={frameRef} 
         />
+        <Slider />
         <About 
           aboutRef={aboutRef} 
         />
