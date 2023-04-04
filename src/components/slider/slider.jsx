@@ -11,8 +11,11 @@ function Sliders() {
 
   const items = images.map((img, id) => (
       <img src={img} alt={img} width={290} height={350}/>
-    ))
+  ));
   
+  const renderDotsItem = ({ isActive }) => {
+    return isActive ? "o" : "*";
+  }
     
   return (
     <section className={style.wrapper}>
@@ -20,6 +23,9 @@ function Sliders() {
         // НАШИ ПРОЕКТЫ
       </h2>
       <AliceCarousel
+        infinite
+        animationType='fadeout'
+        animationDuration={800}
         mouseTracking
         items={items}
         responsive={responsive}
