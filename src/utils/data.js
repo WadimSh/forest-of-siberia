@@ -17,6 +17,8 @@ import img16 from '../images/sheathing-board.png';
 import img17 from '../images/wooden-wallpaper.png';
 import zero from '../images/zero.png';
 
+export const images = [img7, img8, img9, img10];
+
 const cards = [
   {
     id: 1,

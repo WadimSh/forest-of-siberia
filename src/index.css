@@ -67,3 +67,5 @@ body {
     --font-size-span: 10px;
   }
 }
+
+@import "react-alice-carousel/lib/alice-carousel.css";
