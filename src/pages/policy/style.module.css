@@ -1,14 +1,30 @@
 .wrapper {
   width: var(--space-size);
-  margin-bottom: var(--indent-size);
+  padding-top: var(--indent-size);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .link {
+  margin-left: auto;
+  padding: 0.2rem 1rem;
+  border: 1px solid var(--main-decoration-color);
+  border-radius: 50px;
+  box-sizing: border-box;
+  text-align: center;
   font-weight: 400;
   font-size: 18px;
   line-height: 115%;
   text-decoration: none;
+  color: var(--main-text-color);
+  transition: all .3s;
+}
+
+.link:hover {
+  background-color: var(--main-decoration-color);
+  color: var(--secondary-text-color);
+  transition: all .3s;
 }
 
 .title {
