@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 0 0 var(--indent-size) 0;
+  margin: var(--indent-size) 0 0;
 }
 
 .description {
@@ -25,13 +25,14 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: clamp(0.56rem, calc(-0.82rem + 3.69vw), 2.50rem);
   row-gap: var(--indent-size);
-  margin: 0 0 var(--indent-size) 0;
+  
 }
 
 .button {
   --padding-left: clamp(0.44rem, calc(-0.99rem + 3.81vw), 2.44rem);
   --padding-top: clamp(0.19rem, calc(-0.17rem + 0.95vw), 0.69rem);
   padding: var(--padding-top) var(--padding-left);
+  margin: var(--indent-size) 0 0;
   align-self: center;
   border: 1px solid var(--main-decoration-color);
   border-radius: 50px;
