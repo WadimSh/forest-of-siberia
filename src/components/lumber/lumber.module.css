@@ -25,7 +25,6 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: clamp(0.56rem, calc(-0.82rem + 3.69vw), 2.50rem);
   row-gap: var(--indent-size);
-  
 }
 
 .button {
