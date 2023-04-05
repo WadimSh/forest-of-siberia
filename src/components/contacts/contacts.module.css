@@ -28,7 +28,8 @@
  display: grid;
  grid-template-areas:
   "email email"
-  "telefon telefon"
+  "telefon1 telefon1"
+  "telefon2 telefon2"
   "telegram whatsapp";
 }
 
@@ -47,14 +48,18 @@
 }
 
 .item:nth-child(2) {
-  grid-area: telefon;
+  grid-area: telefon1;
 }
 
 .item:nth-child(3) {
-  grid-area: telegram;
+  grid-area: telefon2;
 }
 
 .item:nth-child(4) {
+  grid-area: telegram;
+}
+
+.item:nth-child(5) {
   grid-area: whatsapp;
 }
 

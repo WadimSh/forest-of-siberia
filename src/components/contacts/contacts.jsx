@@ -15,6 +15,9 @@ function Contacts({ contactsRef }) {
             <a className={style.link} href="tel:+7 (991) 922-78-82">+7 (991) 922-78-82</a>
           </li>
           <li className={style.item}>
+            <a className={style.link} href="tel:+7 (991) 868-31-42">+7 (991) 868-31-42</a>
+          </li>
+          <li className={style.item}>
             <a className={style.link} href="https://t.me/lessibrf" target="_blank">
               <div className={style.telegram}></div>
             </a>

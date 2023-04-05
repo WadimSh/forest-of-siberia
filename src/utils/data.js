@@ -15,9 +15,6 @@ import img14 from '../images/planken-priamoy-transformed.png';
 import img15 from '../images/planken-kosoy-transformed.png';
 import img16 from '../images/sheathing-board.png';
 import img17 from '../images/wooden-wallpaper.png';
-import zero from '../images/zero.png';
-
-export const images = [img7, img8, img9, img10];
 
 const cards = [
   {
