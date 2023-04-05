@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin: var(--indent-size) 0 0;
 }
 
 .textBox {
@@ -11,7 +12,7 @@
 }
 
 .title {
-  margin: var(--indent-size) 0;
+  margin: 0 0 var(--indent-size) 0;
   font-weight: 700;
   font-size: var(--font-size-subtitle);
   line-height: 117.5%;
