@@ -1,4 +1,5 @@
 import style from './slider.module.css';
+import Carousel from '../carousel/carousel';
 
 function Sliders() {
       
@@ -7,7 +8,7 @@ function Sliders() {
       <h2 className={style.title}>
         // НАШИ РАБОТЫ
       </h2>
-      <div className={style.slider}></div>
+      <Carousel />
     </section>
   );
 }

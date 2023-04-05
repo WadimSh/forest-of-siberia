@@ -1,17 +1,22 @@
 import { useState } from "react";
 import AliceCarousel from "react-alice-carousel";
 import items from "../../utils/items";
+import style from './carousel.module.css';
 
-const items = items.map((item, index) => (
-  <img src={item} alt={item} />
-))
+const itemse = items.map((item, index) => (
+  <img className={style.img} src={item} alt={item} key={index}/>
+));
 
 const thumbItems = (items, [setThumbIndex, setThumbAnimation]) => {
-  return items.map((item, i) => (
-    <div className="thumb" onClick={() => (setThumbIndex(i), setThumbAnimation(true))}>
-      <img src={item} alt={item} />
-    </div>
-  ))
+  return items.map((item, index) => (
+    <img className={style.img} src={item} alt={item} key={index} onClick={() => (setThumbIndex(index), setThumbAnimation(true))} />
+  ));
+}
+
+const responsive = {
+  0: { items: 3 },
+  600: { items: 5 },
+  1200: { items: 7 },
 };
 
 function Carousel() {
@@ -22,7 +27,7 @@ function Carousel() {
   const [thumbs] = useState(thumbItems(items, [setThumbIndex, setThumbAnimation]));
 
   const slideNext = () => {
-    if (!thumbAnimation && thumbIndex < thumb.length - 1) {
+    if (!thumbAnimation && thumbIndex < thumbs.length - 1) {
       setThumbAnimation(true);
       setThumbIndex(thumbIndex + 1);
     }
@@ -57,23 +62,26 @@ function Carousel() {
     }
   };
       
-  return [
-    <AliceCarousel
-      activeIndex={mainIndex}
-      animationType="fadeout"
-      animationDuration={800}
-      disableDotsControls
-      disableButtonsControls
-      items={items}
-      mouseTracking={!thumbAnimation}
-      onSlideChange={syncMainBeforeChange}
-      onSlideChanged={syncMainAfterChange}
-      touchTracking={!thumbAnimation}
-    />,
-    <div className="thumbs">
+  return (
+    <div className={style.wrapper}>
       <AliceCarousel
+        activeIndex={mainIndex}
+        animationType="fadeout"
+        animationDuration={800}
+        disableDotsControls
+        disableButtonsControls
+        items={itemse}
+        
+        onSlideChange={syncMainBeforeChange}
+        onSlideChanged={syncMainAfterChange}
+        touchTracking={!thumbAnimation}
+      />
+    <div className={style.previu}>
+    <div className={style.btnPrev} onClick={slidePrev}></div>
+      <div className={style.list}>
+      <AliceCarousel
+        responsive={responsive}
         activeIndex={thumbIndex}
-        autoWidth
         disableDotsControls
         disableButtonsControls
         items={thumbs}
@@ -81,10 +89,12 @@ function Carousel() {
         onSlideChanged={syncThumbs}
         touchTracking={!mainAnimation}
       />
-      <div className="btn-prev" onClick={slidePrev}>&lang;</div>
-      <div className="btn-next" onClick={slideNext}>&rang;</div>
     </div>
-  ]
+    <div className={style.btnNext} onClick={slideNext}></div>
+    </div>
+    
+    </div>
+  )
 }
 
 export default Carousel;

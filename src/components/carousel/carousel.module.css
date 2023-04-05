@@ -1,0 +1,59 @@
+.img {
+  width: 100%;
+  margin-right: 5px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.previu {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+}
+
+.list {
+  width: 91%;
+}
+
+.btnPrev {
+  width: 5%;
+  background-image: url(../../images/prev.svg);
+  margin-right: 2px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.btnNext {
+  width: 5%;
+  background-image: url(../../images/next.svg);
+  margin-left: 2px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.btnPrev:hover, .btnNext:hover {
+  opacity: .5;
+  transition: all .3s;
+}
+
+@media screen and (max-width: 600px) {
+  .btnPrev {
+    display: none;
+  }
+  
+  .btnNext {
+    display: none;
+  }
+
+  .list {
+    width: 100%;
+  }
+}
