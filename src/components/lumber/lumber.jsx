@@ -19,15 +19,15 @@ function Lumber({ lumberRef }) {
           // ПИЛОМАТЕРИАЛЫ
         </h2>
       </div>
-    <div className={style.cardList}>
-      {cards.slice(0, numberOfItems).map((card) =>
-        <Card
-          key={card.id}
-          item={card}
-        />
-      )}
-    </div>
-    <button className={!showMore ? style.button : style.buttonDisible} onClick={handleClick}>ПОКАЗАТЬ ЕЩЁ</button>
+      <div className={style.cardList}>
+        {cards.slice(0, numberOfItems).map((card) =>
+          <Card
+            key={card.id}
+            item={card}
+          />
+        )}
+      </div>
+      <button className={!showMore ? style.button : style.buttonDisible} onClick={handleClick}>ПОКАЗАТЬ ЕЩЁ</button>
     </section>
   );
 }

@@ -5,7 +5,7 @@ function Agreement() {
     
   return (
     <section className={style.wrapper}>
-      <Link className={style.link} to='/'>&larr; Назад</Link>
+      <Link className={style.link} to='/'>Вернуться назад</Link>
       <h2 className={style.title}>// ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</h2>
       <h3 className={style.item}>Термины и&nbsp;определения, используемые в&nbsp;настоящем соглашение</h3>
       <p className={style.text}>Перечисленные ниже термины в&nbsp;рамках настоящего Соглашения имеют следующее значение:</p>

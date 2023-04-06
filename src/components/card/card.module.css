@@ -3,7 +3,6 @@
   height: clamp(15.63rem, calc(11.16rem + 22.32vw), 31.25rem);
   display: flex;
   flex-direction: column;
-
 }
  
 .img {

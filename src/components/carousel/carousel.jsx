@@ -76,23 +76,22 @@ function Carousel() {
         onSlideChanged={syncMainAfterChange}
         touchTracking={!thumbAnimation}
       />
-    <div className={style.previu}>
-    <div className={style.btnPrev} onClick={slidePrev}></div>
-      <div className={style.list}>
-      <AliceCarousel
-        responsive={responsive}
-        activeIndex={thumbIndex}
-        disableDotsControls
-        disableButtonsControls
-        items={thumbs}
-        mouseTracking={false}
-        onSlideChanged={syncThumbs}
-        touchTracking={!mainAnimation}
-      />
-    </div>
-    <div className={style.btnNext} onClick={slideNext}></div>
-    </div>
-    
+      <div className={style.previu}>
+        <div className={style.btnPrev} onClick={slidePrev}></div>
+        <div className={style.list}>
+          <AliceCarousel
+            responsive={responsive}
+            activeIndex={thumbIndex}
+            disableDotsControls
+            disableButtonsControls
+            items={thumbs}
+            mouseTracking={false}
+            onSlideChanged={syncThumbs}
+            touchTracking={!mainAnimation}
+          />
+        </div>
+        <div className={style.btnNext} onClick={slideNext}></div>
+      </div>
     </div>
   )
 }

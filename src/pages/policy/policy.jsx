@@ -5,7 +5,7 @@ function Policy() {
     
 return (
   <section className={style.wrapper}>
-    <Link className={style.link} to='/'>&larr; Назад</Link>
+    <Link className={style.link} to='/'>Вернуться назад</Link>
     <h2 className={style.title}>// ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h2>
     <h3 className={style.item}>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</h3>
     <p className={style.text}>В&nbsp;настоящей Политике конфиденциальности используются следующие термины:</p>

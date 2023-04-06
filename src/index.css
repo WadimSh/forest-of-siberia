@@ -1,9 +1,5 @@
 @import url(./fonts/fonts.css);
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   /*глобальные переменные цвета*/
   --main-background-color: #e3ebd2;

@@ -20,15 +20,15 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
   }, [logic])
   
   return ( 
-  <header className={style.wrapper}>
-    <div className={style.menu}>
-      <div className={style.row}>
-        <Logo />
-        <div className={style.burger} onClick={onChecked}>
-          <span className={!logic ? style.span : style.spanActive}></span>
-          <span className={!logic ? style.span : style.spanActive}></span>
+    <header className={style.wrapper}>
+      <div className={style.menu}>
+        <div className={style.row}>
+          <Logo />
+          <div className={style.burger} onClick={onChecked}>
+            <span className={!logic ? style.span : style.spanActive}></span>
+            <span className={!logic ? style.span : style.spanActive}></span>
+          </div>
         </div>
-      </div>
         <ul className={style.list}>
           <li className={style.item} onClick={() => clickTab(aboutRef)}>
             <span className={style.link}>О нас</span>
@@ -43,9 +43,9 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
             <span className={style.link}>Контакты</span>
           </li>
         </ul>
-    </div>
-    <div className={!logic ? style.overlay : style.overlayActive}>
-      <ul className={style.listActive}>
+      </div>
+      <div className={!logic ? style.overlay : style.overlayActive}>
+        <ul className={style.listActive}>
           <li className={style.item} onClick={() => onMobile(aboutRef)}>
             <span className={style.link}>О нас</span>
           </li>
@@ -58,11 +58,9 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
           <li className={style.item} onClick={() => onMobile(contactsRef)}>
             <span className={style.link}>Контакты</span>
           </li>
-      </ul>
-    </div>
-  
-  </header>
-    
+        </ul>
+      </div>
+    </header>
   );
 }
 
