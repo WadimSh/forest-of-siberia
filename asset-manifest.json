@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.0227f634.css",
-    "main.js": "./static/js/main.addcaf16.js",
+    "main.js": "./static/js/main.4a62352a.js",
     "static/js/787.22c0a299.chunk.js": "./static/js/787.22c0a299.chunk.js",
     "static/media/item1.png": "./static/media/item1.4392e607ed93d7bcccbd.png",
     "static/media/item17.png": "./static/media/item17.37ea2a5c3243d2f367cd.png",
@@ -27,12 +27,11 @@
     "static/media/contacts.jpg": "./static/media/contacts.6a30681ae6f9fcdb938b.jpg",
     "static/media/planken-kosoy-transformed.png": "./static/media/planken-kosoy-transformed.ec4cd1f918583a341fc7.png",
     "static/media/frame1.jpg": "./static/media/frame1.930f679943813d4cb6ff.jpg",
-    "static/media/board-wet-transformed.png": "./static/media/board-wet-transformed.c1a0a0755e6f38873c09.png",
     "static/media/about-three.jpg": "./static/media/about-three.d2aebd01d0a301341ab5.jpg",
     "static/media/frame2.jpg": "./static/media/frame2.ea90752efe6c20c56ba9.jpg",
+    "static/media/board-wet-transformed.png": "./static/media/board-wet-transformed.1e873bbdfe70698e8733.png",
     "static/media/decking-transformed.png": "./static/media/decking-transformed.4bd5df5909ef52fe0e49.png",
     "static/media/planed-board-transformed.png": "./static/media/planed-board-transformed.6ab3b4633f00bbc7d90b.png",
-    "static/media/about-two.jpg": "./static/media/about-two.bfb02a093d1b3f06bdb0.jpg",
     "static/media/frame4.jpg": "./static/media/frame4.9cf2344ae75873a13208.jpg",
     "static/media/frame7.jpg": "./static/media/frame7.b171fa4e7d861d7cc970.jpg",
     "static/media/frame3.jpg": "./static/media/frame3.b28cc662547d5dcaff90.jpg",
@@ -43,6 +42,7 @@
     "static/media/frame5.jpg": "./static/media/frame5.b41ea3a6d75d606acc35.jpg",
     "static/media/board-dry-transformed.png": "./static/media/board-dry-transformed.7fc6dfe9e07a39ede01e.png",
     "static/media/wooden-wallpaper.png": "./static/media/wooden-wallpaper.6895e551ae280d6d5426.png",
+    "static/media/about-two.jpg": "./static/media/about-two.0e5c4e2f3e96d51a13a1.jpg",
     "static/media/Robotoblack.ttf": "./static/media/Robotoblack.547399708b3908ad0e25.ttf",
     "static/media/Robotobold.ttf": "./static/media/Robotobold.1ac02c026895c20df570.ttf",
     "static/media/Robotomedium.ttf": "./static/media/Robotomedium.704bba02385c62b5914c.ttf",
@@ -70,11 +70,11 @@
     "static/media/prev.svg": "./static/media/prev.06b24d14bc49a55648ab.svg",
     "static/media/next.svg": "./static/media/next.b4704370b279a7f2eb35.svg",
     "main.0227f634.css.map": "./static/css/main.0227f634.css.map",
-    "main.addcaf16.js.map": "./static/js/main.addcaf16.js.map",
+    "main.4a62352a.js.map": "./static/js/main.4a62352a.js.map",
     "787.22c0a299.chunk.js.map": "./static/js/787.22c0a299.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0227f634.css",
-    "static/js/main.addcaf16.js"
+    "static/js/main.4a62352a.js"
   ]
 }
