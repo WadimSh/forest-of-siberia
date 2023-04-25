@@ -18,12 +18,12 @@ function Contacts({ contactsRef }) {
             <a className={style.link} href="tel:+7 (991) 868-31-42">+7 (991) 868-31-42</a>
           </li>
           <li className={style.item}>
-            <a className={style.link} href="https://t.me/lessibrf" target="_blank">
+            <a className={style.link} href="https://t.me/lessibrf" target="_blank" aria-aria-label="Telegram">
               <div className={style.telegram}></div>
             </a>
           </li>
           <li className={style.item}>
-            <a className={style.link} href="https://wa.me/79257302695" target="_blank">
+            <a className={style.link} href="https://wa.me/79257302695" target="_blank" aria-aria-label="WhatsApp">
             <div className={style.whatsapp}></div>
             </a>
           </li>
