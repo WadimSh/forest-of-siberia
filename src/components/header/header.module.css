@@ -92,7 +92,7 @@
   transform: translateY(0) rotate(45deg);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .wrapper {
     background-color: var(--main-background-color);
   }

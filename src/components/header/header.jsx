@@ -3,7 +3,7 @@ import Logo from '../logo/logo';
 
 import style from './header.module.css';
 
-function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
+function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef, renovRef }) {
   const [logic, setLogic] = useState(false);
 
   const onChecked = () => {
@@ -39,6 +39,9 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
           <li className={style.item} onClick={() => clickTab(frameRef)}>
             <span className={style.link}>Каркасные дома</span>
           </li>
+          <li className={style.item} onClick={() => clickTab(renovRef)}>
+            <span className={style.link}>Ремонт квартир</span>
+          </li>
           <li className={style.item} onClick={() => clickTab(contactsRef)}>
             <span className={style.link}>Контакты</span>
           </li>
@@ -54,6 +57,9 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef }) {
           </li>
           <li className={style.item} onClick={() => onMobile(frameRef)}>
             <span className={style.link}>Каркасные дома</span>
+          </li>
+          <li className={style.item} onClick={() => clickTab(renovRef)}>
+            <span className={style.link}>Ремонт квартир</span>
           </li>
           <li className={style.item} onClick={() => onMobile(contactsRef)}>
             <span className={style.link}>Контакты</span>
