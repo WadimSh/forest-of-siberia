@@ -6,19 +6,22 @@
 }
 
 .textBox {
-  width: 45%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-right: 20px;
 }
 
 .title {
-  margin: 0 0 var(--indent-size) 0;
+  margin: var(--indent-size) 0 0 0;
   font-weight: 700;
   font-size: var(--font-size-subtitle);
   line-height: 117.5%;
 }
 
 .text {
-  margin: var(--indent-size) 0 0 0;
+  margin: 0 0 var(--indent-size) 0;
   font-weight: 400;
   font-size: var(--font-size-text);
   line-height: 115%;
@@ -36,13 +39,15 @@
   font-size: var(--font-size-text);
   line-height: 120%;
   text-align: end;
+  margin-bottom: 3px;
 }
 
 .galleryBox {
-  width: 58%;
+  width: 54%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 16%);
+  grid-template-rows: repeat(6, 10.5rem);
   gap: 3px;
 }
 
@@ -106,21 +111,34 @@
   grid-row: 5/7;
 }
 
-@media screen and (min-width: 600px) and (max-width: 930px) {
+@media screen and (min-width: 700px) and (max-width: 950px) {
   .galleryBox {
-    grid-template-columns: 50% 50% 0px;
-    grid-template-rows: repeat(6, 11%);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2px;
+  }
+
+  .img:nth-child(8), .img:nth-child(9),  .img:nth-child(10){
+    display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .textBox {
+    width: 67%;
     margin-right: 6px;
   }
 
   .galleryBox {
-    grid-template-columns: 100% 0px 0px;
+    width: 33%;
+    grid-template-columns: 100%;
     gap: 1px;
+  }
+
+  .img:nth-child(4), .img:nth-child(5),  .img:nth-child(6), .img:nth-child(7) {
+    display: none;
+  }
+
+  .img:nth-child(8), .img:nth-child(9),  .img:nth-child(10){
+    display: none;
   }
 }
