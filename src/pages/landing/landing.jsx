@@ -57,9 +57,9 @@ function Landing() {
       </main>
       <Footer 
         clickTab={clickTab}
-        aboutRef={aboutRef}
         lumberRef={lumberRef}
         frameRef={frameRef}
+        renovRef={renovRef}
       />
     </>
   );

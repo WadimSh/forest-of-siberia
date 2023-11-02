@@ -4,21 +4,21 @@ import Logo from '../logo/logo';
 
 import style from './footer.module.css';
 
-function Footer({ clickTab, aboutRef, lumberRef, frameRef }) {
+function Footer({ clickTab, lumberRef, frameRef, renovRef }) {
     
   return (
     <footer className={style.wrapper}>
       <div className={style.nav}>
         <Logo />
         <ul className={style.list}>
-          <li className={style.item} onClick={() => clickTab(aboutRef)}>
-            <span className={style.link}>О нас</span>
-          </li>
           <li className={style.item} onClick={() => clickTab(lumberRef)}>
             <span className={style.link}>Пиломатериалы</span>
           </li>
           <li className={style.item} onClick={() => clickTab(frameRef)}>
             <span className={style.link}>Каркасные дома</span>
+          </li>
+          <li className={style.item} onClick={() => clickTab(renovRef)}>
+            <span className={style.link}>Ремонт квартир</span>
           </li>
         </ul>
       </div>
