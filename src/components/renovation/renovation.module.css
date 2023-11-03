@@ -125,19 +125,51 @@
 
 @media screen and (max-width: 700px) {
   .textBox {
-    width: 67%;
+    width: 75%;
     margin-right: 4px;
   }
 
   .galleryBox {
-    width: 33%;
+    width: 25%;
     grid-template-columns: 100%;
+    gap: 1px;
   }
 
-  .img:nth-child(4), 
-  .img:nth-child(5),  
-  .img:nth-child(6), 
-  .img:nth-child(7) {
+  .img:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  .img:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  .img:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  
+  .img:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    object-position: bottom;
+  }
+  
+  .img:nth-child(5) {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  
+  .img:nth-child(6) {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+
+  .img:nth-child(7), 
+  .img:nth-child(8),  
+  .img:nth-child(9), 
+  .img:nth-child(10) {
     display: none;
   }
 }

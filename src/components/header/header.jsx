@@ -58,7 +58,7 @@ function Header({ clickTab, aboutRef, lumberRef, frameRef, contactsRef, renovRef
           <li className={style.item} onClick={() => onMobile(frameRef)}>
             <span className={style.link}>Каркасные дома</span>
           </li>
-          <li className={style.item} onClick={() => clickTab(renovRef)}>
+          <li className={style.item} onClick={() => onMobile(renovRef)}>
             <span className={style.link}>Ремонт квартир</span>
           </li>
           <li className={style.item} onClick={() => onMobile(contactsRef)}>
