@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.ae45e7e0.css",
-    "main.js": "./static/js/main.ce7e3918.js",
+    "main.css": "./static/css/main.538758cb.css",
+    "main.js": "./static/js/main.581f866b.js",
     "static/js/787.22c0a299.chunk.js": "./static/js/787.22c0a299.chunk.js",
     "static/media/item17.png": "./static/media/item17.94e7b4fafad08e42c2fd.png",
     "static/media/item1.png": "./static/media/item1.2c4803fa6aa34f68807c.png",
@@ -46,8 +46,17 @@
     "static/media/board-dry-transformed.png": "./static/media/board-dry-transformed.a4a5f33a43b73ac58276.png",
     "static/media/Roboto.ttf": "./static/media/Roboto.ecf539e1e3bc3e936f78.ttf",
     "static/media/wooden-wallpaper.png": "./static/media/wooden-wallpaper.b86b775f32a0ca36636d.png",
+    "static/media/renovation10.png": "./static/media/renovation10.ba984bae066694183caf.png",
     "static/media/about-two.jpg": "./static/media/about-two.7b63ad83c349e7855da7.jpg",
+    "static/media/renovation6.png": "./static/media/renovation6.fde02c3aff260a3e45bd.png",
+    "static/media/renovation8.png": "./static/media/renovation8.efed7193b3084c4ba3c3.png",
     "static/media/timber-dry-transformed.png": "./static/media/timber-dry-transformed.ecfa94cd53c126bfbcb6.png",
+    "static/media/renovation3.png": "./static/media/renovation3.650c52e1cf0082a977ff.png",
+    "static/media/renovation4.png": "./static/media/renovation4.5503ceb01685fd4a6e55.png",
+    "static/media/renovation1.png": "./static/media/renovation1.06e3eda9cd8c883c1ce5.png",
+    "static/media/renovation9.png": "./static/media/renovation9.ee5db711b36ccd2db99f.png",
+    "static/media/renovation2.png": "./static/media/renovation2.7fb093dfaa2e53b5f4ed.png",
+    "static/media/renovation5.png": "./static/media/renovation5.746d1f19fb08eed9a601.png",
     "static/media/Robotoblack.woff": "./static/media/Robotoblack.eab3a566ce722e08e453.woff",
     "static/media/block-house.png": "./static/media/block-house.c56994e7c1385cd45130.png",
     "static/media/Robotobold.woff": "./static/media/Robotobold.1e0c22679977ac02c8f6.woff",
@@ -62,6 +71,7 @@
     "static/media/beam.png": "./static/media/beam.794b1dfd69415ef08cf9.png",
     "static/media/Roboto.woff2": "./static/media/Roboto.806e04d8241d87f99a68.woff2",
     "static/media/euro-siding.png": "./static/media/euro-siding.35032e8a54126be5ee62.png",
+    "static/media/renovation7.png": "./static/media/renovation7.6c89877ee81dbdae656f.png",
     "static/media/about-one.jpg": "./static/media/about-one.0c52c9f652caf919f9f6.jpg",
     "static/media/sheathing-board.png": "./static/media/sheathing-board.4f913325a3dc33c88302.png",
     "static/media/floor-board.png": "./static/media/floor-board.ed210577612887a6f2b3.png",
@@ -69,12 +79,12 @@
     "index.html": "./index.html",
     "static/media/prev.svg": "./static/media/prev.06b24d14bc49a55648ab.svg",
     "static/media/next.svg": "./static/media/next.b4704370b279a7f2eb35.svg",
-    "main.ae45e7e0.css.map": "./static/css/main.ae45e7e0.css.map",
-    "main.ce7e3918.js.map": "./static/js/main.ce7e3918.js.map",
+    "main.538758cb.css.map": "./static/css/main.538758cb.css.map",
+    "main.581f866b.js.map": "./static/js/main.581f866b.js.map",
     "787.22c0a299.chunk.js.map": "./static/js/787.22c0a299.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae45e7e0.css",
-    "static/js/main.ce7e3918.js"
+    "static/css/main.538758cb.css",
+    "static/js/main.581f866b.js"
   ]
 }
